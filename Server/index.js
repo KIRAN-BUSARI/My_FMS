@@ -1,14 +1,10 @@
-import express from 'express';
-import './app.js';
-
+import app from './app.js';
 import { config } from 'dotenv'
 config();
 
+const PORT = process.env.PORT || 5000
 
-
-app.use();
-
-app.send('/', (req, res) => {
-    res.json("FMS development")
+app.listen(PORT, async () => {
+    console.log(`App is Running on http://localhost:${PORT}`);
 });
 
