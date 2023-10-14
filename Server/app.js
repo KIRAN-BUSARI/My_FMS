@@ -1,9 +1,11 @@
 import express from "express";
 import { config } from "dotenv";
 import morgan from "morgan";
+import ConnectToDB from "./Config/DBconnect.js";
 
 config();
 
+ConnectToDB();
 const app = express();
 
 app.use(express.json());
