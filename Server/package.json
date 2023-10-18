@@ -11,6 +11,7 @@
   "author": "kiran , prathyathi",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.5.1",
     "dotenv": "^16.3.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "express": "^4.18.2",

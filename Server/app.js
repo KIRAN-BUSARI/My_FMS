@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 app.use('/', (req, res) => {
-    res.send('<h1>This is FMS project</h1>')
+    res.send('<h1>This is FMS Back_End</h1>')
 });
 
 export default app;
