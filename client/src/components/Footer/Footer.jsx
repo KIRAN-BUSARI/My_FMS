@@ -78,7 +78,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <Link to="#" className="text-gray-500 hover:text-blue-500">
+                        <Link to="#" className="text-gray-500 hover:text-blue-600">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -142,7 +142,6 @@ export default function Footer() {
                         <Link to="#" className="text-gray-500">
                             <FaInstagram className='hover:text-[#d62976]'/>
                         </Link>
-
                     </div>
                 </div>
             </div>
